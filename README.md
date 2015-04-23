@@ -7,5 +7,5 @@ However, Windows includes a generic "High Definition Audio Device" driver which 
 The only problem with the generic driver is that the audio output sometimes contains annoying high-pitched noises whenever no applications are currently playing audio.
 The noises are different every time, and sometimes they are inaudible. It seems like the chip is being put into some kind of sleep mode, but maybe its buffers are not being cleared first.
 Whatever the cause, it is quite annoying, especially when using headphones.
-To fix this, I put together this C program which can be run on login with Task Scheduler. It sits in the background and continuously plays silence, in order to trick the audio chipset into not making those noises.
-As far as I can tell, it seems to work.
+To try to fix this, I put together this C program which can be run on login with Task Scheduler. It sits in the background and continuously plays silence, in order to trick the audio chipset into not making those noises.
+Sometimes it seems to work but sometimes it doesn't
