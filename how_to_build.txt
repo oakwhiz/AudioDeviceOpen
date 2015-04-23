@@ -1,3 +1,4 @@
-﻿gcc -static AudioDeviceOpen.c -lwinmm -LC:\\MinGW\\lib\\libwinmm.a
+﻿
+gcc -static AudioDeviceOpen.c -lwinmm -LC:\\MinGW\\lib\\libwinmm.a
 
 Works On My Machine™
